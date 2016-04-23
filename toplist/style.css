@@ -2,17 +2,33 @@
 
 * {
    outline: 1px solid red !important;
-}
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+.title {
+    background-color: #33BEBE;
+    max-width: 1120px;
+    font-family: arial;
+    padding-left: 20px;
+}
+
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+
 .screenshot {
     max-width: 460px;
+    magin:20px;
 }
 
 .description {
     max-width: 705px;
+    color: #7C8B88;
+    font-family: arial;
+    margin: 20px;
 }
+
