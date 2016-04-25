@@ -24,3 +24,5 @@ place Holders
     placekitten.com
 fonts:
     https://www.google.com/fonts
+Centering things:
+    https://www.w3.org/Style/Examples/007/center.en.html

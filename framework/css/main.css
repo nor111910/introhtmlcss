@@ -1,5 +1,5 @@
 * {
-    border: 1px solid lightgray !important;
+    border: 1px solid red !important;
 }
 
 /*
@@ -23,15 +23,18 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    color: #747704;
 }
 
-h3 {
-    text-align: center;
-    margin: 0px;
+h2 {
+    color: #BCBBBB;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
-p {
-    text-align: center;
-    margin: 0px;
+
+a {
+    color: #BCBBBB;
 }
 
 .title {
@@ -39,9 +42,20 @@ p {
     margin: 5px;
 }
 .sep {
-    margin: 0px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
     border: 0px;
     width: 100%;
+}
+
+.cntr {
+    text-align: center;
+}
+
+.plantext {
+    margin: 0px;
 }
 
 .grid {
@@ -73,21 +87,8 @@ p {
 
 .col-4 {
     width: 33.33%;
-    align-content: center;
-    xpadding: 20px;
-    xalign-content: center;
 }
 
-.leftpic {
-    margin-right: 20px;
-}
-.midpic {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.rightpic {
-    margin-left: 20px;
-}
 .col-5 {
     width: 41.66%;
 }
@@ -118,4 +119,19 @@ p {
 
 .col-12 {
     width: 100%;
+}
+
+.leftpic {
+    display: block;
+    margin-left: 0px;
+}
+.midpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rightpic {
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
 }
