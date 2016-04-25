@@ -1,14 +1,15 @@
 * {
-    border: 1px solid red !important;
+    border: 1px solid lightgray !important;
 }
 
+/*
 @media only screen and (max-width: 500px) {
     p {
         background-color: blue;
         display: none;
     }
 }
-/*
+
 @medis only screen and (max-width: 500px) and (orientation: landscape) {
     p {
         background-color: blue;
@@ -21,19 +22,37 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    xfont-family: 'Rambla', sans-serif;
     font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    margin: 0px;
+}
+p {
+    text-align: center;
+    margin: 0px;
+}
+
+.title {
+    text-align: right;
+    margin: 5px;
+}
+.sep {
+    margin: 0px;
+    border: 0px;
+    width: 100%;
 }
 
 .grid {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 960px;
     width: 100%;
 }
 
 .row {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     display: -webkit-flex;
     display: flex;
     display: flex-wrap;
@@ -54,11 +73,21 @@
 
 .col-4 {
     width: 33.33%;
-    padding-left: 5px;
-    padding-right: 5px;
-    overflow: auto;
+    align-content: center;
+    xpadding: 20px;
+    xalign-content: center;
 }
 
+.leftpic {
+    margin-right: 20px;
+}
+.midpic {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rightpic {
+    margin-left: 20px;
+}
 .col-5 {
     width: 41.66%;
 }
