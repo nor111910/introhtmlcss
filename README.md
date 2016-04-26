@@ -26,3 +26,11 @@ fonts:
     https://www.google.com/fonts
 Centering things:
     https://www.w3.org/Style/Examples/007/center.en.html
+
+==============================================
+Bootstrap: http://getbootstrap.com/
+Foundation: http://foundation.zurb.com/
+Yaml: http://www.yaml.de/
+960 Grid: http://960.gs/
+Suzy: http://susy.oddbird.net/
+
