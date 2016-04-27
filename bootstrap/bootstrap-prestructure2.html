@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>My Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet"
+          href="css/bootstrap.min.css">
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+
   <div class="container">
 
     <div class=row>
@@ -12,6 +19,9 @@
         <h1>Jane Doette</h1>
         <h3>Front-end Ninja</h3>
       </div>
+    </div>
+    <div>
+      <hr>
     </div>
 
     <div class=row>
@@ -25,31 +35,122 @@
       </div>
     </div>
 
-    <div class=row>
+    <div class="row text-center">
       <div class=col-md-6>
-        <img class="img-responsive" src="http://placehold.it/555x300">
+        <img class="img-responsive"
+             src="http://placehold.it/555x300"
+             data-toggle="modal"
+             data-target="#modalProj1">
         <h3>Appify</h3>
         <p><a href="http://github.com">Link to project</a></p>
       </div>
       <div class=col-md-6>
-        <img class="img-responsive" src="http://placehold.it/555x300">
+        <img class="img-responsive"
+             src="http://placehold.it/555x300"
+             data-toggle="modal"
+             data-target="#modalProj2">
         <h3>Appify</h3>
         <p><a href="http://github.com">Link to project</a></p>
       </div>
     </div>
 
-    <div class=row>
+    <div class="row text-center">
       <div class=col-md-6>
-        <img class="img-responsive" src="http://placehold.it/555x300">
+        <img class="img-responsive"
+             src="http://placehold.it/555x300"
+             data-toggle="modal"
+             data-target="#modalProj3">
         <h3>Appify</h3>
         <p><a href="http://github.com">Link to project</a></p>
       </div>
       <div class=col-md-6>
-        <img class="img-responsive" src="http://placehold.it/555x300">
+        <img class="img-responsive"
+             src="http://placehold.it/555x300"
+             data-toggle="modal"
+             data-target="#modalProj4">
         <h3>Appify</h3>
         <p><a href="http://github.com">Link to project</a></p>
       </div>
     </div>
 </div>
+
+<!-- Button trigger modal
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+-->
+
+<!-- Modal proj1 -->
+<div class="modal fade" id="modalProj1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" id="myModalLabel1">Modal Project 1</h4>
+      </div>
+      <div class="modal-body">
+        This is my first project. I would like to put stuff here. However, I have nothing to say at this time. Please pretent to read stuff then feel free to close the modal... Thanks.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal proj2 -->
+<div class="modal fade" id="modalProj2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" id="myModalLabel2">Modal Project 2</h4>
+      </div>
+      <div class="modal-body">
+        This is my second project. I would like to put stuff here. However, I have nothing to say at this time. Please pretent to read stuff then feel free to close the modal... Thanks.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal proj3 -->
+<div class="modal fade" id="modalProj3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" id="myModalLabel3">Modal Project 3</h4>
+      </div>
+      <div class="modal-body">
+        This is my third project. I would like to put stuff here. However, I have nothing to say at this time. Please pretent to read stuff then feel free to close the modal... Thanks.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal proj4 -->
+<div class="modal fade" id="modalProj4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" id="myModalLabel4">Modal Project 4</h4>
+      </div>
+      <div class="modal-body">
+        This is my forth project. I would like to put stuff here. However, I have nothing to say at this time. Please pretent to read stuff then feel free to close the modal... Thanks.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
   </body>
 </html>
